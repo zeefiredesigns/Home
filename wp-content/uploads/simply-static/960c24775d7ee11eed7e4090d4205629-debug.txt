@@ -1,282 +1,325 @@
-[2024-10-16 21:45:24] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
-[2024-10-16 21:45:24] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
-[2024-10-16 21:45:25] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
-[2024-10-16 21:45:28] [class-ss-archive-creation-job.php:136] Current task: setup
-[2024-10-16 21:45:28] [class-ss-archive-creation-job.php:153] Performing task: setup
-[2024-10-16 21:45:28] [class-ss-task.php:44] Status message: [setup] Setting up
-[2024-10-16 21:45:28] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729115124\
-[2024-10-16 21:45:28] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/Home/
-[2024-10-16 21:45:29] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
-[2024-10-16 21:45:29] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-10-16 21:45:29] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-10-16 21:45:29] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
-[2024-10-16 21:45:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/
-[2024-10-16 21:45:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
-[2024-10-16 21:45:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-16 21:45:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/671033f9a35a8-WhUM9C.tmp
-[2024-10-16 21:45:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/?simply_static_page=1
-[2024-10-16 21:45:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/?simply_static_page=1
-[2024-10-16 21:45:43] [class-ss-url-fetcher.php:103] Filesize: 123675 bytes
-[2024-10-16 21:45:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-10-16 21:45:43] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
-[2024-10-16 21:45:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/671033f9a35a8-WhUM9C.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729115124/index.html
-[2024-10-16 21:45:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-16 21:45:44] [class-ss-fetch-urls-task.php:159] Adding 16 URLs to the queue
-[2024-10-16 21:45:48] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-16 21:45:48] [class-ss-page.php:119] Checking Content Identical:6953f2648b2468ac906d25f1f6a6d36c8b4a5416===. Value: FALSE
-[2024-10-16 21:45:48] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
-[2024-10-16 21:45:48] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-10-16 21:46:04] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-10-16 21:46:04] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-10-16 21:46:04] [class-ss-fetch-urls-task.php:69] Total pages: 16; Pages remaining: 15
-[2024-10-16 21:46:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/themes/Divi/images/logo.png
-[2024-10-16 21:46:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 16
-[2024-10-16 21:46:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-16 21:46:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/6710341d3505b-YBwyc8.tmp
-[2024-10-16 21:46:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/themes/Divi/images/logo.png?simply_static_page=2
-[2024-10-16 21:46:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/themes/Divi/images/logo.png?simply_static_page=2
-[2024-10-16 21:46:05] [class-ss-url-fetcher.php:103] Filesize: 1740 bytes
-[2024-10-16 21:46:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
-[2024-10-16 21:46:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/images/logo.png
-[2024-10-16 21:46:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/6710341d3505b-YBwyc8.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729115124/wp-content/themes/Divi/images/logo.png
-[2024-10-16 21:46:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-16 21:46:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-16 21:46:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-16 21:46:05] [class-ss-page.php:119] Checking Content Identical:29b2b4b27bbcb73490b7db78de2f74a34d011de9===. Value: FALSE
-[2024-10-16 21:46:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-includes/js/jquery/jquery.min.js
-[2024-10-16 21:46:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 16
-[2024-10-16 21:46:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-16 21:46:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/6710341ea50a4-kzBwg9.tmp
-[2024-10-16 21:46:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-includes/js/jquery/jquery.min.js?simply_static_page=3
-[2024-10-16 21:46:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-includes/js/jquery/jquery.min.js?simply_static_page=3
-[2024-10-16 21:46:06] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
-[2024-10-16 21:46:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-10-16 21:46:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
-[2024-10-16 21:46:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/6710341ea50a4-kzBwg9.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729115124/wp-includes/js/jquery/jquery.min.js
-[2024-10-16 21:46:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-16 21:46:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-16 21:46:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-16 21:46:06] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
-[2024-10-16 21:46:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-includes/js/jquery/jquery-migrate.min.js
-[2024-10-16 21:46:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 16
-[2024-10-16 21:46:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-16 21:46:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/6710341f344be-p1bNcH.tmp
-[2024-10-16 21:46:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=4
-[2024-10-16 21:46:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=4
-[2024-10-16 21:46:07] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
-[2024-10-16 21:46:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-10-16 21:46:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
-[2024-10-16 21:46:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/6710341f344be-p1bNcH.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729115124/wp-includes/js/jquery/jquery-migrate.min.js
-[2024-10-16 21:46:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-16 21:46:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-16 21:46:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-16 21:46:07] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
-[2024-10-16 21:46:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/themes/Divi/js/scripts.min.js
-[2024-10-16 21:46:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 16
-[2024-10-16 21:46:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-16 21:46:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/6710341fba307-ifbr62.tmp
-[2024-10-16 21:46:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/themes/Divi/js/scripts.min.js?simply_static_page=5
-[2024-10-16 21:46:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/themes/Divi/js/scripts.min.js?simply_static_page=5
-[2024-10-16 21:46:07] [class-ss-url-fetcher.php:103] Filesize: 273614 bytes
-[2024-10-16 21:46:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-10-16 21:46:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/js/scripts.min.js
-[2024-10-16 21:46:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/6710341fba307-ifbr62.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729115124/wp-content/themes/Divi/js/scripts.min.js
-[2024-10-16 21:46:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-16 21:46:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-16 21:46:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-16 21:46:08] [class-ss-page.php:119] Checking Content Identical:830c3cbfaecc671fc86976b07e3374707d345cb3===. Value: FALSE
-[2024-10-16 21:46:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
-[2024-10-16 21:46:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 16
-[2024-10-16 21:46:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-16 21:46:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/6710342071593-XIsA1w.tmp
-[2024-10-16 21:46:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?simply_static_page=6
-[2024-10-16 21:46:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?simply_static_page=6
-[2024-10-16 21:46:08] [class-ss-url-fetcher.php:103] Filesize: 3349 bytes
-[2024-10-16 21:46:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-10-16 21:46:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
-[2024-10-16 21:46:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/6710342071593-XIsA1w.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729115124/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
-[2024-10-16 21:46:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-16 21:46:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-16 21:46:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-16 21:46:08] [class-ss-page.php:119] Checking Content Identical:9c1dc49e9747758e033c0e9a7d016401bd78602c===. Value: FALSE
-[2024-10-16 21:46:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/themes/Divi/core/admin/js/common.js
-[2024-10-16 21:46:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 16
-[2024-10-16 21:46:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-16 21:46:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/6710342135ecc-BLLoqO.tmp
-[2024-10-16 21:46:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/themes/Divi/core/admin/js/common.js?simply_static_page=7
-[2024-10-16 21:46:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/themes/Divi/core/admin/js/common.js?simply_static_page=7
-[2024-10-16 21:46:09] [class-ss-url-fetcher.php:103] Filesize: 1343 bytes
-[2024-10-16 21:46:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-10-16 21:46:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/js/common.js
-[2024-10-16 21:46:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/6710342135ecc-BLLoqO.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729115124/wp-content/themes/Divi/core/admin/js/common.js
-[2024-10-16 21:46:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-16 21:46:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-16 21:46:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-16 21:46:09] [class-ss-page.php:119] Checking Content Identical:b7820e4ffb6becc133c48f66d9f683545530b959===. Value: FALSE
-[2024-10-16 21:46:09] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/xmlrpc.php
-[2024-10-16 21:46:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 16
-[2024-10-16 21:46:09] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Home/xmlrpc.php
-[2024-10-16 21:46:09] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-10-16 21:46:09] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-includes/css/dist/block-library/style.min.css
-[2024-10-16 21:46:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 16
-[2024-10-16 21:46:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-16 21:46:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/67103421f386b-TR83Qx.tmp
-[2024-10-16 21:46:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-includes/css/dist/block-library/style.min.css?simply_static_page=9
-[2024-10-16 21:46:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-includes/css/dist/block-library/style.min.css?simply_static_page=9
-[2024-10-16 21:46:10] [class-ss-url-fetcher.php:103] Filesize: 112427 bytes
-[2024-10-16 21:46:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-10-16 21:46:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
-[2024-10-16 21:46:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/67103421f386b-TR83Qx.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729115124/wp-includes/css/dist/block-library/style.min.css
-[2024-10-16 21:46:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-16 21:46:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-16 21:46:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-16 21:46:10] [class-ss-page.php:119] Checking Content Identical:e23bc18ef1b0f78f7010e3c16e4c5e1f333248bd===. Value: FALSE
-[2024-10-16 21:46:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/index.php
-[2024-10-16 21:46:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 16
-[2024-10-16 21:46:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-16 21:46:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/6710342295674-eLy3oM.tmp
-[2024-10-16 21:46:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/index.php?simply_static_page=10
-[2024-10-16 21:46:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/index.php?simply_static_page=10
-[2024-10-16 21:46:31] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
-[2024-10-16 21:46:31] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
-[2024-10-16 21:46:31] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-10-16 21:46:31] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/Home/
-[2024-10-16 21:46:31] [class-ss-fetch-urls-task.php:223] This looks like a redirect from http to https (or visa versa); adding new URL to the queue
-[2024-10-16 21:46:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/et-cache/global/et-divi-customizer-global.min.css
-[2024-10-16 21:46:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 16
-[2024-10-16 21:46:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-16 21:46:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/67103437ee190-hMSkJX.tmp
-[2024-10-16 21:46:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/et-cache/global/et-divi-customizer-global.min.css?simply_static_page=11
-[2024-10-16 21:46:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/et-cache/global/et-divi-customizer-global.min.css?simply_static_page=11
-[2024-10-16 21:46:31] [class-ss-url-fetcher.php:103] Filesize: 225 bytes
-[2024-10-16 21:46:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-10-16 21:46:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/et-cache/global/et-divi-customizer-global.min.css
-[2024-10-16 21:46:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/67103437ee190-hMSkJX.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729115124/wp-content/et-cache/global/et-divi-customizer-global.min.css
-[2024-10-16 21:46:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-16 21:46:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-16 21:46:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-16 21:46:32] [class-ss-page.php:119] Checking Content Identical:ddc5f626a005f4fc13befe03fda83c79bb0bd6a9===. Value: FALSE
-[2024-10-16 21:46:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
-[2024-10-16 21:46:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 16
-[2024-10-16 21:46:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-16 21:46:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/6710343873ba6-ifkoOm.tmp
-[2024-10-16 21:46:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif?simply_static_page=12
-[2024-10-16 21:46:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif?simply_static_page=12
-[2024-10-16 21:46:32] [class-ss-url-fetcher.php:103] Filesize: 9427 bytes
-[2024-10-16 21:46:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
-[2024-10-16 21:46:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
-[2024-10-16 21:46:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/6710343873ba6-ifkoOm.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729115124/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
-[2024-10-16 21:46:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-16 21:46:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-16 21:46:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-16 21:46:32] [class-ss-page.php:119] Checking Content Identical:350a7c0f6b64e19c61b183afef7ffaca57befa30===. Value: FALSE
-[2024-10-16 21:46:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.eot
-[2024-10-16 21:46:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 16
-[2024-10-16 21:46:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-16 21:46:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/6710343954e73-0WX9UX.tmp
-[2024-10-16 21:46:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.eot?simply_static_page=13
-[2024-10-16 21:46:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.eot?simply_static_page=13
-[2024-10-16 21:46:33] [class-ss-url-fetcher.php:103] Filesize: 6400 bytes
-[2024-10-16 21:46:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
-[2024-10-16 21:46:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/base/modules.eot
-[2024-10-16 21:46:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/6710343954e73-0WX9UX.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729115124/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.eot
-[2024-10-16 21:46:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-16 21:46:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-16 21:46:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-16 21:46:33] [class-ss-page.php:119] Checking Content Identical:3a03658b5a1d593a9cd2c148fd17fc6023e5e3b8===. Value: FALSE
-[2024-10-16 21:46:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.ttf
-[2024-10-16 21:46:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 16
-[2024-10-16 21:46:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-16 21:46:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/67103439b5b71-2zLKVc.tmp
-[2024-10-16 21:46:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.ttf?simply_static_page=14
-[2024-10-16 21:46:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.ttf?simply_static_page=14
-[2024-10-16 21:46:33] [class-ss-url-fetcher.php:103] Filesize: 6228 bytes
-[2024-10-16 21:46:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-10-16 21:46:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/base/modules.ttf
-[2024-10-16 21:46:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/67103439b5b71-2zLKVc.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729115124/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.ttf
-[2024-10-16 21:46:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-16 21:46:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-16 21:46:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-16 21:46:33] [class-ss-page.php:119] Checking Content Identical:388212f5009137d58ed93aeccfd075cb7e522166===. Value: FALSE
-[2024-10-16 21:46:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.woff
-[2024-10-16 21:46:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 16
-[2024-10-16 21:46:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-16 21:46:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/6710343aa3ee3-RDAkHY.tmp
-[2024-10-16 21:46:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.woff?simply_static_page=15
-[2024-10-16 21:46:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.woff?simply_static_page=15
-[2024-10-16 21:46:34] [class-ss-url-fetcher.php:103] Filesize: 6304 bytes
-[2024-10-16 21:46:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
-[2024-10-16 21:46:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/base/modules.woff
-[2024-10-16 21:46:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/6710343aa3ee3-RDAkHY.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729115124/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.woff
-[2024-10-16 21:46:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-16 21:46:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-16 21:46:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-16 21:46:34] [class-ss-page.php:119] Checking Content Identical:7e1e182df2c6788ea81c0e03e8611cf4c0ed1ed0===. Value: FALSE
-[2024-10-16 21:46:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.svg
-[2024-10-16 21:46:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 16
-[2024-10-16 21:46:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-16 21:46:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/6710343b1c359-kTDf22.tmp
-[2024-10-16 21:46:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.svg?simply_static_page=16
-[2024-10-16 21:46:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.svg?simply_static_page=16
-[2024-10-16 21:46:35] [class-ss-url-fetcher.php:103] Filesize: 17464 bytes
-[2024-10-16 21:46:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
-[2024-10-16 21:46:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/base/modules.svg
-[2024-10-16 21:46:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/6710343b1c359-kTDf22.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729115124/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.svg
-[2024-10-16 21:46:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-16 21:46:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-16 21:46:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-16 21:46:35] [class-ss-page.php:119] Checking Content Identical:57c820f99e6a4c724c3eeb763bb30d9267565c9c===. Value: FALSE
-[2024-10-16 21:46:35] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 16 pages/files
-[2024-10-16 21:46:35] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-10-16 21:46:46] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-10-16 21:46:46] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-10-16 21:46:46] [class-ss-fetch-urls-task.php:69] Total pages: 16; Pages remaining: 0
-[2024-10-16 21:46:46] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 16 of 16 pages/files
-[2024-10-16 21:46:46] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
-[2024-10-16 21:46:46] [class-ss-archive-creation-job.php:136] Current task: generate_404
-[2024-10-16 21:46:46] [class-ss-archive-creation-job.php:153] Performing task: generate_404
-[2024-10-16 21:46:46] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
-[2024-10-16 21:46:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/67103446d4d8e-32wUvY.tmp
-[2024-10-16 21:46:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/1729115207?simply_static_page=0
-[2024-10-16 21:46:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/1729115207?simply_static_page=0
-[2024-10-16 21:46:46] [class-ss-url-fetcher.php:103] Filesize: 295 bytes
-[2024-10-16 21:46:46] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=iso-8859-1
-[2024-10-16 21:46:46] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
-[2024-10-16 21:46:46] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/67103446d4d8e-32wUvY.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729115124\404/index.html
-[2024-10-16 21:46:47] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
-[2024-10-16 21:46:47] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
-[2024-10-16 21:46:47] [class-ss-page.php:119] Checking Content Identical:1ac8eae68af9ef376d9d3b77ae74cdd618de85c6===. Value: FALSE
-[2024-10-16 21:46:47] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
-[2024-10-16 21:46:47] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
-[2024-10-16 21:46:47] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
-[2024-10-16 21:46:47] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
-[2024-10-16 21:46:47] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 14 of 14 files
-[2024-10-16 21:46:47] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/
-[2024-10-16 21:46:48] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/themes/Divi/images
-[2024-10-16 21:46:48] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-includes/js/jquery
-[2024-10-16 21:46:48] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-includes/js/jquery
-[2024-10-16 21:46:48] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/themes/Divi/js
-[2024-10-16 21:46:49] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js
-[2024-10-16 21:46:49] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/themes/Divi/core/admin/js
-[2024-10-16 21:46:49] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-includes/css/dist/block-library
-[2024-10-16 21:46:49] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/et-cache/global
-[2024-10-16 21:46:49] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/themes/Divi/includes/builder/styles/images
-[2024-10-16 21:46:50] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/themes/Divi/core/admin/fonts/modules/base
-[2024-10-16 21:46:50] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/themes/Divi/core/admin/fonts/modules/base
-[2024-10-16 21:46:50] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/themes/Divi/core/admin/fonts/modules/base
-[2024-10-16 21:46:50] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/themes/Divi/core/admin/fonts/modules/base
-[2024-10-16 21:46:50] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:14. Processed Pages: 14
-[2024-10-16 21:46:50] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 14 of 14 files
-[2024-10-16 21:46:50] [trait-can-process-pages.php:110] Total pages: 14; Pages remaining: 0
-[2024-10-16 21:46:50] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
-[2024-10-16 21:46:50] [class-ss-transfer-files-locally-task.php:257] Destination 404 Page found at C:\xampp\htdocs\Home\404\index.html
-[2024-10-16 21:46:50] [class-ss-transfer-files-locally-task.php:261] Success
-[2024-10-16 21:46:50] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://zeefiredesigns.github.io/Home/" target="_blank">https://zeefiredesigns.github.io/Home/</a>
-[2024-10-16 21:46:51] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
-[2024-10-16 21:46:51] [class-ss-archive-creation-job.php:136] Current task: wrapup
-[2024-10-16 21:46:51] [class-ss-archive-creation-job.php:153] Performing task: wrapup
-[2024-10-16 21:46:51] [class-ss-wrapup-task.php:22] Deleting temporary files
-[2024-10-16 21:46:51] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
-[2024-10-16 21:46:51] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
-[2024-10-16 21:46:52] [class-ss-archive-creation-job.php:197] Completing the job
-[2024-10-16 21:46:52] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:01:28
+[2024-10-16 22:10:13] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-10-16 22:10:13] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-10-16 22:10:13] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-10-16 22:10:17] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-10-16 22:10:17] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-10-16 22:10:17] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-10-16 22:10:17] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729116613\
+[2024-10-16 22:10:17] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/Home/
+[2024-10-16 22:10:17] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-10-16 22:10:17] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-16 22:10:17] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-16 22:10:17] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-10-16 22:10:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/
+[2024-10-16 22:10:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-10-16 22:10:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 22:10:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/671039c9c6e32-Z1KAKY.tmp
+[2024-10-16 22:10:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/?simply_static_page=17
+[2024-10-16 22:10:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/?simply_static_page=17
+[2024-10-16 22:10:22] [class-ss-url-fetcher.php:103] Filesize: 196086 bytes
+[2024-10-16 22:10:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-16 22:10:22] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-10-16 22:10:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/671039c9c6e32-Z1KAKY.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729116613/index.html
+[2024-10-16 22:10:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 22:10:23] [class-ss-fetch-urls-task.php:159] Adding 19 URLs to the queue
+[2024-10-16 22:10:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 22:10:29] [class-ss-page.php:119] Checking Content Identical:c1f54640baa57f82eac19df72e68c01fb348d21b===. Value: FALSE
+[2024-10-16 22:10:29] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-10-16 22:10:29] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-16 22:10:29] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-16 22:10:29] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-16 22:10:29] [class-ss-fetch-urls-task.php:69] Total pages: 19; Pages remaining: 18
+[2024-10-16 22:10:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/themes/Divi/images/logo.png
+[2024-10-16 22:10:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 19
+[2024-10-16 22:10:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 22:10:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/671039d61718c-POd3NG.tmp
+[2024-10-16 22:10:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/themes/Divi/images/logo.png?simply_static_page=18
+[2024-10-16 22:10:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/themes/Divi/images/logo.png?simply_static_page=18
+[2024-10-16 22:10:30] [class-ss-url-fetcher.php:103] Filesize: 1740 bytes
+[2024-10-16 22:10:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-16 22:10:30] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/images/logo.png
+[2024-10-16 22:10:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/671039d61718c-POd3NG.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729116613/wp-content/themes/Divi/images/logo.png
+[2024-10-16 22:10:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 22:10:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 22:10:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 22:10:30] [class-ss-page.php:119] Checking Content Identical:29b2b4b27bbcb73490b7db78de2f74a34d011de9===. Value: FALSE
+[2024-10-16 22:10:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/uploads/2024/10/stars-5.png
+[2024-10-16 22:10:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 19
+[2024-10-16 22:10:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 22:10:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/671039d6af01c-Fl7Glu.tmp
+[2024-10-16 22:10:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/uploads/2024/10/stars-5.png?simply_static_page=19
+[2024-10-16 22:10:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/uploads/2024/10/stars-5.png?simply_static_page=19
+[2024-10-16 22:10:30] [class-ss-url-fetcher.php:103] Filesize: 682 bytes
+[2024-10-16 22:10:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-16 22:10:30] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/stars-5.png
+[2024-10-16 22:10:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/671039d6af01c-Fl7Glu.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729116613/wp-content/uploads/2024/10/stars-5.png
+[2024-10-16 22:10:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 22:10:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 22:10:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 22:10:31] [class-ss-page.php:119] Checking Content Identical:327718be94a13f465007f0ee29e6040527bba7be===. Value: FALSE
+[2024-10-16 22:10:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-includes/js/jquery/jquery.min.js
+[2024-10-16 22:10:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 19
+[2024-10-16 22:10:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 22:10:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/671039d7a1a7a-pFNB6H.tmp
+[2024-10-16 22:10:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-includes/js/jquery/jquery.min.js?simply_static_page=20
+[2024-10-16 22:10:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-includes/js/jquery/jquery.min.js?simply_static_page=20
+[2024-10-16 22:10:31] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2024-10-16 22:10:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-16 22:10:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2024-10-16 22:10:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/671039d7a1a7a-pFNB6H.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729116613/wp-includes/js/jquery/jquery.min.js
+[2024-10-16 22:10:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 22:10:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 22:10:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 22:10:31] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2024-10-16 22:10:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-16 22:10:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 19
+[2024-10-16 22:10:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 22:10:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/671039d81b16f-aH2QTr.tmp
+[2024-10-16 22:10:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=21
+[2024-10-16 22:10:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=21
+[2024-10-16 22:10:32] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2024-10-16 22:10:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-16 22:10:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-16 22:10:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/671039d81b16f-aH2QTr.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729116613/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-16 22:10:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 22:10:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 22:10:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 22:10:32] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2024-10-16 22:10:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/themes/Divi/js/scripts.min.js
+[2024-10-16 22:10:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 19
+[2024-10-16 22:10:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 22:10:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/671039d923c9a-HSsGn3.tmp
+[2024-10-16 22:10:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/themes/Divi/js/scripts.min.js?simply_static_page=22
+[2024-10-16 22:10:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/themes/Divi/js/scripts.min.js?simply_static_page=22
+[2024-10-16 22:10:33] [class-ss-url-fetcher.php:103] Filesize: 273614 bytes
+[2024-10-16 22:10:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-16 22:10:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/js/scripts.min.js
+[2024-10-16 22:10:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/671039d923c9a-HSsGn3.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729116613/wp-content/themes/Divi/js/scripts.min.js
+[2024-10-16 22:10:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 22:10:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 22:10:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 22:10:33] [class-ss-page.php:119] Checking Content Identical:830c3cbfaecc671fc86976b07e3374707d345cb3===. Value: FALSE
+[2024-10-16 22:10:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/themes/Divi/core/admin/js/common.js
+[2024-10-16 22:10:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 19
+[2024-10-16 22:10:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 22:10:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/671039d9b9073-m3FpYG.tmp
+[2024-10-16 22:10:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/themes/Divi/core/admin/js/common.js?simply_static_page=23
+[2024-10-16 22:10:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/themes/Divi/core/admin/js/common.js?simply_static_page=23
+[2024-10-16 22:10:33] [class-ss-url-fetcher.php:103] Filesize: 1343 bytes
+[2024-10-16 22:10:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-16 22:10:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/js/common.js
+[2024-10-16 22:10:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/671039d9b9073-m3FpYG.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729116613/wp-content/themes/Divi/core/admin/js/common.js
+[2024-10-16 22:10:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 22:10:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 22:10:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 22:10:33] [class-ss-page.php:119] Checking Content Identical:b7820e4ffb6becc133c48f66d9f683545530b959===. Value: FALSE
+[2024-10-16 22:10:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/uploads/2024/10/law-firm-23.jpg
+[2024-10-16 22:10:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 19
+[2024-10-16 22:10:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 22:10:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/671039da29a79-031dso.tmp
+[2024-10-16 22:10:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/uploads/2024/10/law-firm-23.jpg?simply_static_page=24
+[2024-10-16 22:10:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/uploads/2024/10/law-firm-23.jpg?simply_static_page=24
+[2024-10-16 22:10:34] [class-ss-url-fetcher.php:103] Filesize: 236352 bytes
+[2024-10-16 22:10:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-16 22:10:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/law-firm-23.jpg
+[2024-10-16 22:10:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/671039da29a79-031dso.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729116613/wp-content/uploads/2024/10/law-firm-23.jpg
+[2024-10-16 22:10:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 22:10:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 22:10:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 22:10:34] [class-ss-page.php:119] Checking Content Identical:7de5dac72377d7fdfc9e0d974927189ce81bc619===. Value: FALSE
+[2024-10-16 22:10:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/xmlrpc.php
+[2024-10-16 22:10:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 19
+[2024-10-16 22:10:34] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Home/xmlrpc.php
+[2024-10-16 22:10:34] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-16 22:10:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/et-cache/11/et-divi-dynamic-11.css
+[2024-10-16 22:10:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 19
+[2024-10-16 22:10:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 22:10:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/671039db32b51-f4LxCE.tmp
+[2024-10-16 22:10:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/et-cache/11/et-divi-dynamic-11.css?simply_static_page=26
+[2024-10-16 22:10:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/et-cache/11/et-divi-dynamic-11.css?simply_static_page=26
+[2024-10-16 22:10:35] [class-ss-url-fetcher.php:103] Filesize: 17586 bytes
+[2024-10-16 22:10:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-16 22:10:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/et-cache/11/et-divi-dynamic-11.css
+[2024-10-16 22:10:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/671039db32b51-f4LxCE.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729116613/wp-content/et-cache/11/et-divi-dynamic-11.css
+[2024-10-16 22:10:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 22:10:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 22:10:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 22:10:35] [class-ss-page.php:119] Checking Content Identical:74e67db197e7e43c1e5924152f1dd9f943e07fe6===. Value: FALSE
+[2024-10-16 22:10:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/index.php
+[2024-10-16 22:10:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 19
+[2024-10-16 22:10:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 22:10:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/671039db98b20-lpulmB.tmp
+[2024-10-16 22:10:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/index.php?simply_static_page=27
+[2024-10-16 22:10:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/index.php?simply_static_page=27
+[2024-10-16 22:10:44] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-10-16 22:10:44] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
+[2024-10-16 22:10:44] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-16 22:10:44] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/Home/
+[2024-10-16 22:10:44] [class-ss-fetch-urls-task.php:223] This looks like a redirect from http to https (or visa versa); adding new URL to the queue
+[2024-10-16 22:10:44] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-includes/css/dist/block-library/style.min.css
+[2024-10-16 22:10:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 19
+[2024-10-16 22:10:44] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 22:10:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/671039e4a6c70-4ecK40.tmp
+[2024-10-16 22:10:44] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-includes/css/dist/block-library/style.min.css?simply_static_page=28
+[2024-10-16 22:10:44] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-includes/css/dist/block-library/style.min.css?simply_static_page=28
+[2024-10-16 22:10:44] [class-ss-url-fetcher.php:103] Filesize: 112427 bytes
+[2024-10-16 22:10:44] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-16 22:10:44] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-10-16 22:10:44] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/671039e4a6c70-4ecK40.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729116613/wp-includes/css/dist/block-library/style.min.css
+[2024-10-16 22:10:44] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 22:10:44] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 22:10:44] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 22:10:44] [class-ss-page.php:119] Checking Content Identical:e23bc18ef1b0f78f7010e3c16e4c5e1f333248bd===. Value: FALSE
+[2024-10-16 22:10:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2024-10-16 22:10:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 19
+[2024-10-16 22:10:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 22:10:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/671039e5349af-d40uDu.tmp
+[2024-10-16 22:10:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif?simply_static_page=29
+[2024-10-16 22:10:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif?simply_static_page=29
+[2024-10-16 22:10:45] [class-ss-url-fetcher.php:103] Filesize: 9427 bytes
+[2024-10-16 22:10:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2024-10-16 22:10:45] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2024-10-16 22:10:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/671039e5349af-d40uDu.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729116613/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2024-10-16 22:10:45] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 22:10:45] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 22:10:45] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 22:10:45] [class-ss-page.php:119] Checking Content Identical:350a7c0f6b64e19c61b183afef7ffaca57befa30===. Value: FALSE
+[2024-10-16 22:10:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot
+[2024-10-16 22:10:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 19
+[2024-10-16 22:10:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 22:10:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/671039e5940b4-JzN9Ss.tmp
+[2024-10-16 22:10:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot?simply_static_page=30
+[2024-10-16 22:10:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot?simply_static_page=30
+[2024-10-16 22:10:45] [class-ss-url-fetcher.php:103] Filesize: 92564 bytes
+[2024-10-16 22:10:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-10-16 22:10:45] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot
+[2024-10-16 22:10:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/671039e5940b4-JzN9Ss.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729116613/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot
+[2024-10-16 22:10:45] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 22:10:45] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 22:10:45] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 22:10:45] [class-ss-page.php:119] Checking Content Identical:1086b2f4f2a5fe091fbcdbca916b44d18050c2c2===. Value: FALSE
+[2024-10-16 22:10:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf
+[2024-10-16 22:10:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 19
+[2024-10-16 22:10:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 22:10:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/671039e5ed96e-afu09X.tmp
+[2024-10-16 22:10:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf?simply_static_page=31
+[2024-10-16 22:10:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf?simply_static_page=31
+[2024-10-16 22:10:45] [class-ss-url-fetcher.php:103] Filesize: 92400 bytes
+[2024-10-16 22:10:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-10-16 22:10:46] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf
+[2024-10-16 22:10:46] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/671039e5ed96e-afu09X.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729116613/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf
+[2024-10-16 22:10:46] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 22:10:46] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 22:10:46] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 22:10:46] [class-ss-page.php:119] Checking Content Identical:e6d716de8f35ba6daf55d57e7fe0ed8d8e50f1f7===. Value: FALSE
+[2024-10-16 22:10:46] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff
+[2024-10-16 22:10:46] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 19
+[2024-10-16 22:10:46] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 22:10:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/671039e64a69b-PyO6u8.tmp
+[2024-10-16 22:10:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff?simply_static_page=32
+[2024-10-16 22:10:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff?simply_static_page=32
+[2024-10-16 22:10:46] [class-ss-url-fetcher.php:103] Filesize: 92476 bytes
+[2024-10-16 22:10:46] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-10-16 22:10:46] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff
+[2024-10-16 22:10:46] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/671039e64a69b-PyO6u8.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729116613/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff
+[2024-10-16 22:10:46] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 22:10:46] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 22:10:46] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 22:10:46] [class-ss-page.php:119] Checking Content Identical:6ac6c03ebcebc29f36f09525ae9564f12240776d===. Value: FALSE
+[2024-10-16 22:10:46] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg
+[2024-10-16 22:10:46] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 19
+[2024-10-16 22:10:46] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 22:10:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/671039e69e4c6-OyjAhA.tmp
+[2024-10-16 22:10:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg?simply_static_page=33
+[2024-10-16 22:10:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg?simply_static_page=33
+[2024-10-16 22:10:46] [class-ss-url-fetcher.php:103] Filesize: 301078 bytes
+[2024-10-16 22:10:46] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-10-16 22:10:46] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg
+[2024-10-16 22:10:46] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/671039e69e4c6-OyjAhA.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729116613/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg
+[2024-10-16 22:10:46] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 22:10:46] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 22:10:46] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 22:10:46] [class-ss-page.php:119] Checking Content Identical:ec61e990e5f34ed24203361f3a9b084b2309ed24===. Value: FALSE
+[2024-10-16 22:10:47] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/uploads/2024/10/law-firm-24.jpg
+[2024-10-16 22:10:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 19
+[2024-10-16 22:10:47] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 22:10:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/671039e760fc2-rwK9oD.tmp
+[2024-10-16 22:10:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/uploads/2024/10/law-firm-24.jpg?simply_static_page=34
+[2024-10-16 22:10:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/uploads/2024/10/law-firm-24.jpg?simply_static_page=34
+[2024-10-16 22:10:47] [class-ss-url-fetcher.php:103] Filesize: 102818 bytes
+[2024-10-16 22:10:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-16 22:10:47] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/law-firm-24.jpg
+[2024-10-16 22:10:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/671039e760fc2-rwK9oD.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729116613/wp-content/uploads/2024/10/law-firm-24.jpg
+[2024-10-16 22:10:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 22:10:48] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 22:10:48] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 22:10:48] [class-ss-page.php:119] Checking Content Identical:df8a981e9c835377c54dbd3cba239c5e48b70f61===. Value: FALSE
+[2024-10-16 22:10:48] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Home/wp-content/uploads/2024/10/law-firm-26.jpg
+[2024-10-16 22:10:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 19
+[2024-10-16 22:10:48] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 22:10:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/671039e8bdfa2-boaTt3.tmp
+[2024-10-16 22:10:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/wp-content/uploads/2024/10/law-firm-26.jpg?simply_static_page=35
+[2024-10-16 22:10:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/wp-content/uploads/2024/10/law-firm-26.jpg?simply_static_page=35
+[2024-10-16 22:10:48] [class-ss-url-fetcher.php:103] Filesize: 68944 bytes
+[2024-10-16 22:10:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-16 22:10:48] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/law-firm-26.jpg
+[2024-10-16 22:10:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/671039e8bdfa2-boaTt3.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729116613/wp-content/uploads/2024/10/law-firm-26.jpg
+[2024-10-16 22:10:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 22:10:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 22:10:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 22:10:49] [class-ss-page.php:119] Checking Content Identical:3f07856a63e61a4d3b00494b6ba7a72bf8897322===. Value: FALSE
+[2024-10-16 22:10:49] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 19 pages/files
+[2024-10-16 22:10:49] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-16 22:10:58] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-16 22:10:58] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-16 22:10:58] [class-ss-fetch-urls-task.php:69] Total pages: 19; Pages remaining: 0
+[2024-10-16 22:10:58] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 19 of 19 pages/files
+[2024-10-16 22:10:58] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-10-16 22:10:58] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-10-16 22:10:58] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-10-16 22:10:58] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-10-16 22:10:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\zandr\AppData\Local\Temp/671039f2e43d8-I7X0JD.tmp
+[2024-10-16 22:10:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Home/1729116659?simply_static_page=0
+[2024-10-16 22:10:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Home/1729116659?simply_static_page=0
+[2024-10-16 22:10:58] [class-ss-url-fetcher.php:103] Filesize: 295 bytes
+[2024-10-16 22:10:58] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=iso-8859-1
+[2024-10-16 22:10:58] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-10-16 22:10:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\zandr\AppData\Local\Temp/671039f2e43d8-I7X0JD.tmp to C:\xampp\htdocs\Home/wp-content/uploads\simply-static\temp-files/simply-static-1-1729116613\404/index.html
+[2024-10-16 22:10:59] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-10-16 22:10:59] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-10-16 22:10:59] [class-ss-page.php:119] Checking Content Identical:1ac8eae68af9ef376d9d3b77ae74cdd618de85c6===. Value: FALSE
+[2024-10-16 22:10:59] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-10-16 22:10:59] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-10-16 22:10:59] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-10-16 22:10:59] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-10-16 22:10:59] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 17 of 17 files
+[2024-10-16 22:10:59] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/
+[2024-10-16 22:11:00] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/themes/Divi/images
+[2024-10-16 22:11:00] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/uploads/2024/10
+[2024-10-16 22:11:00] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-includes/js/jquery
+[2024-10-16 22:11:00] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-includes/js/jquery
+[2024-10-16 22:11:00] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/themes/Divi/js
+[2024-10-16 22:11:00] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/themes/Divi/core/admin/js
+[2024-10-16 22:11:00] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/uploads/2024/10
+[2024-10-16 22:11:00] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/et-cache/11
+[2024-10-16 22:11:00] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-includes/css/dist/block-library
+[2024-10-16 22:11:01] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/themes/Divi/includes/builder/styles/images
+[2024-10-16 22:11:01] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/themes/Divi/core/admin/fonts/modules/all
+[2024-10-16 22:11:01] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/themes/Divi/core/admin/fonts/modules/all
+[2024-10-16 22:11:01] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/themes/Divi/core/admin/fonts/modules/all
+[2024-10-16 22:11:01] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/themes/Divi/core/admin/fonts/modules/all
+[2024-10-16 22:11:01] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/uploads/2024/10
+[2024-10-16 22:11:01] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/Home/wp-content/uploads/2024/10
+[2024-10-16 22:11:02] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:17. Processed Pages: 17
+[2024-10-16 22:11:02] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 17 of 17 files
+[2024-10-16 22:11:02] [trait-can-process-pages.php:110] Total pages: 17; Pages remaining: 0
+[2024-10-16 22:11:02] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-10-16 22:11:02] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://zeefiredesigns.github.io/Home/" target="_blank">https://zeefiredesigns.github.io/Home/</a>
+[2024-10-16 22:11:02] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-10-16 22:11:02] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-10-16 22:11:02] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-10-16 22:11:02] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-10-16 22:11:02] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-10-16 22:11:02] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-10-16 22:11:03] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-10-16 22:11:03] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:50
